@@ -44,7 +44,7 @@ class App extends Component {
   render(){
     return (
       <Routes>
-        <Route path='/dogs' Component={() => <DogList dogs={this.props.dogs}/>} />
+        <Route path='/dogs' Component={() => <DogList dogs={this.props.dogs}/>} /> 
       </Routes>
     )
   }
